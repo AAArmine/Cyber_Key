@@ -17,7 +17,7 @@ Careers
     <div class="job_meet_flex d-flex justify-content-between">
         <div class="job_meet_item">
             <img src="{{ asset('assets/icons/portfolio.png') }}" alt="" class='job_meet_item_img'>
-            <h3 class="common_caption common_caption_smaller">Job Opening</h3>
+            <h3 class="common_caption common_caption_smaller">Job Openingssssss</h3>
             <p class="common_text">Give your career a new twist</p>
             <a href="#job_openings" class='a_no_dec'>
                 <img src="{{ asset('assets/icons/down arrow.png') }}" alt="" class='job_meet_item_img1'>
@@ -29,7 +29,7 @@ Careers
             <p class="common_text">Give your career a new twist</p>
             <a href="#meet_team" class='a_no_dec'>
                 <span class="roll_down"><i class="fas fa-arrow-circle-down"></i></span>
-            </a> 
+            </a>
         </div>
     </div>
 </section>
@@ -38,12 +38,12 @@ Careers
         <div class="search_jobs_item1">
             <h3 class="common_caption">We are hiring</h3>
             <p class="common_text">Find a job opening that matches your qualifications and
-            send us your CV
+                send us your CV
             </p>
         </div>
         <div class="search_jobs_item d-flex">
             <div class='search_jobs_item_item1'>
-                <select class="form-control search_job_input"  name="cars" id="cars">
+                <select class="form-control search_job_input" name="cars" id="cars">
                     <option value="volvo">Volvo</option>
                     <option value="saab">Saab</option>
                     <option value="opel">Opel</option>
@@ -57,7 +57,7 @@ Careers
 
 
     </div>
-    
+
 
 </section>
 
