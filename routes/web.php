@@ -87,12 +87,20 @@ Route::group([
     )->name('blog_separate')->middleware('setLocale');
 
 
-    Route::get('/forInvestors',
-    'App\Http\Controllers\ReportController@index' 
+    Route::get(
+        '/forInvestors',
+        'App\Http\Controllers\ReportController@index'
     )->name('forInvestors')->middleware('setLocale');
 
-    Route::get('/careers', 'App\Http\Controllers\CareerController@index' 
+    Route::get(
+        '/careers',
+        'App\Http\Controllers\CareerController@index'
     )->name('careers')->middleware('setLocale');
+
+    Route::get(
+        '/jobs_separate',
+        'App\Http\Controllers\CareerController@show_one'
+    )->name('jobs_separate')->middleware('setLocale');
 
     Route::get('/contact', function () {
         return view('contact');
@@ -102,5 +110,4 @@ Route::group([
     Route::post('/form-submit-home',  'App\Http\Controllers\SubmitHomeController@submit')->name('form-submit-home')->middleware('setLocale');
     Route::post('/form-contact',  'App\Http\Controllers\ContactController@submit')->name('form-contact')->middleware('setLocale');
     Route::post('/form-investor',  'App\Http\Controllers\InvestorController@submit_email')->name('form-investor')->middleware('setLocale');
-
 });
