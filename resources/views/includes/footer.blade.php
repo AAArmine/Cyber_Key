@@ -149,7 +149,7 @@
     <div class="footerMob_sec2 mt-5">
         <div class="footerflex_item_title bolder">@lang('navbar.links')</div>
         <div class="subs_footer_div" id='submit_newsletters_foot'>
-            <form action="{{route('form-submit', app()->getLocale())}}#submit_newsletters_foot" method='post' id="submit_newsletters">
+            <form action="{{route('form-submit', app()->getLocale())}}#submit_newsletters_foot" method='post' id="submit_newsletters_foot">
                 @csrf
                 <input type="text" name='email' class='bg_footer footer_subs_inp form-control' placeholder="@lang('navbar.pl_enter_email')">
                 <button type='submit' class='footbutSubmit'><img src="{{ asset('assets/icons/arrow.png') }}" alt="" class='arrow-rotate'></button>

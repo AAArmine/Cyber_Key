@@ -14,7 +14,10 @@
     padding: 20px;
     text-align: center;
     min-height: 274px;
-
+    transition: box-shadow 0.2s ease;
+}
+.job_meet_item:hover{
+    box-shadow: 0.8px 0.2px 3px #80808094;
 }
 .job_meet_flex{
     padding-top: 40px;
@@ -44,7 +47,7 @@
     width: 45%;
 }
 .search_jobs_item1{
-padding-left: 100px;
+padding-right: 100px;
 }
 .posted_jobs{
     margin: auto !important;
@@ -62,8 +65,77 @@ padding-left: 100px;
 }
 .search_jobs_flex{
     margin-top: 50px;
-    margin-bottom: 70px;
 }
 .search_jobs_item{
     margin-top: 35px;
+}
+.posted_jobs_item{
+    width:31.5%;
+    box-shadow: 2px 1px 8px #80808094;
+    padding:20px;
+    position: relative;
+    margin-top: 30px;
+    transition: box-shadow 0.2s ease;
+}
+.posted_jobs_item:hover{
+    box-shadow: 0.8px 0.2px 3px #80808094;
+}
+.abs_img_posted_jobs{
+    position: absolute;
+    right: 25px;
+}
+.posted_jobs_item h4{
+    font-weight: 900;
+    margin-top:20px;
+}
+.posted_jobs_item p{
+    margin-top:30px;
+}
+.w23{
+    width: 23px;
+}
+.posted_jobs{
+    padding-bottom: 100px;
+}
+
+/* meet our team */
+.meet_team{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+.our_team_text{
+    width:70%;
+    margin: auto;
+}
+.our_team_img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+    margin-top: 50px;
+}
+.leadership_item{
+    width: 28%;
+}
+.leadership_item_img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.leadership_item h5{
+    font-weight: 900;
+    margin-top: 20px;
+}
+.job_description{
+    width:70%;
+    margin:auto;
+}
+@media screen and (max-width:768px) {
+    .posted_jobs_item{
+        width: 90%;
+        margin: auto;
+    }
 }
