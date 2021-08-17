@@ -1,0 +1,415 @@
+.topImgSection{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+    color: var(--white);
+    background-attachment: fixed;
+}
+.topImgContent{
+    padding: 100px 200px;
+}
+.topImgContent h2{
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.topImgContent h3{
+    margin-top: 30px;
+}
+.topImgContent p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.about_flex_item1, .about_flex_item2{
+    width: 50%;
+}
+.about_flex_item1{
+    background-color: black;
+    padding: 120px 140px 120px 90px;
+    color: white;
+}
+.about_flex_item1 h5{
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+.about_flex_item1 p{
+    font-size: 14px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+    -webkit-box-orient: vertical;
+}
+
+.about_flex_item2{
+    position: relative;
+}
+.abs_about_flex_item2{
+    position: absolute;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    top:63px;
+    left:-90px;
+}
+/* guarantee section */
+
+.guarantee_item1{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px
+}
+.we_guarantee{
+    margin:100px;
+}
+.guarantee_item1, .guarantee_item2{
+    width: 50%;
+}
+.guarantee_item2{
+    position: relative;
+}
+
+.quality_number{
+    font-weight: 900;
+    text-shadow: 1px 0.5px 1px black; 
+    font-size: 30px;
+}
+
+.quality_title{
+    font-weight: 900;
+    margin-top: 25px;
+}
+.guarantee_item2_content_abs{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+.quality_item{
+    width: 31%;
+}
+.quality_flex{
+    margin-top: 25px;
+}
+
+/* our vision */
+.our_vision{
+    margin-top: 140px;
+}
+.our_vision_item{
+    width: 30%;
+    margin-top: 35px;
+}
+.our_vision_item_item1{
+    font-size: 50px;
+    background: -webkit-linear-gradient(var(--main) 16%, white 44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    margin-right: 35px;
+    position: relative;
+    top: -20px;
+}
+.our_vision_item_item2 h5{
+    font-weight: 900;
+    text-shadow: 0.5px 0 0.5px black;
+}
+/* how invest */
+.soc_responsibility{
+    margin-top: 100px;
+}
+
+.soc_res_flex_item1{
+    width: 41%;
+    border-right: 2px solid #80808061;
+    padding: 50px 0 50px 150px;
+}
+.soc_res_flex_item2{
+    width: 59%;
+    padding: 50px 150px 50px 50px;
+}
+
+.soc_res_pills li .active{
+    background-color: #E9F0FF;
+}
+.soc_res_pills li a{
+    padding: 15px;
+    font-size: 14px;
+}
+.soc_res_pills li{
+    padding: 25px 0;
+}
+.soc_res_pills li a{
+    color: black;
+    font-weight: 900;
+    letter-spacing: 0.8px;
+    border-radius: 5px;
+}
+.soc_res_pills li a:hover{
+    text-decoration: none;
+}
+.soc_res_content h4{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-top: 20px;
+}
+.blackfion_text{
+    font-size: 14px;
+    margin-top: 25px;
+}
+.invest_num{
+    font-size: 22px;
+    text-shadow: 1px 0.5px 1px black;
+    margin-right: 15px;
+}
+.invest_step{
+    font-size: 30px;
+    text-shadow: 1px 0.5px 1px var(--main);
+    color: var(--main);
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+/* end our_vision */
+.our_latest_news, .our_latest_events{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+
+/* certificate section */
+.five_certificates{
+    text-align: center;
+}
+.five_certificates p{
+    font-size: 15px;
+    font-weight: 900;
+}
+.navigation_certificate{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.certificate-item1{
+    width: 31%;
+}
+.certificate-img{
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.certificate-item1{
+    display: none;
+    cursor: pointer;
+}
+.certBorder{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.certNavItem1{
+    width: 10%;
+}
+.certNavigator{
+    width: 80%;
+    margin: auto;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left_right{
+    width:30px;
+}
+.certBorder_bottom{
+    border-bottom: 3px solid black;
+}
+.certBorder_item{
+    width:100%;
+}
+.left_cert, .right_cert{
+    padding:8px 0;
+    cursor: pointer;
+}
+.navigation_certificate{
+    margin-top: 50px;
+}
+.five_certificates{
+    width: 85%;
+    margin:auto;
+    margin-top: 100px;
+}
+
+/* end certificate sec */
+/* subscription sec */
+.seven_subscribe{
+    margin-top: 100px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    height: 400px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+.seven_subscribe h4{
+    font-weight: 800;
+    letter-spacing: 1px;
+    padding-top: 70px;
+    margin-bottom: 50px;
+}
+.subsInput{
+    padding: 10px;
+    font-size: 13px;
+    font-weight: 900;
+    border:none;
+    border-radius: 8px 0 0 8px;
+    width: 250px;
+    width: 467px;
+}
+.subsInput::placeholder{
+    color: black;
+    font-weight: 900;
+}
+.sendSubs{
+    background-color: var(--main);
+    color: white;
+    font-weight: 900;
+    padding: 9px 13px;
+    font-size: 13px;
+    position: relative;
+    left:-5px;
+    border: 1px solid white;
+    border-radius: 0 8px 8px 0;
+    letter-spacing: 0.3px;
+}
+/* end subscribe sec */
+/* latest news & events */
+.latest_news_img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+.latest_news_item{
+    width: 23%;
+}
+.latest_news_flex{
+    margin-top: 50px;
+}
+
+
+.full_length_but{
+    width: 100%;
+    border-radius: 7px;
+    border: 2px solid lightgray;
+    padding: 10px;
+    background-color: white;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 40px;
+    transition: background-color 0.3s ease;
+}
+.full_length_but:hover{
+    background-color: var(--greyLigth);
+}
+
+/* events */
+.events_flex-item{
+    width: 31%;
+}
+/* events */
+.events{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.pr_img{
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.events_caption{
+    margin-bottom: 17px !important;
+    padding-bottom: 0 !important;
+}
+.events_date{
+    background-color: var(-main);
+    width: 57%;
+    font-size: 15px;
+    color: white;
+    background-color: var(--main);
+    font-weight: 900;
+    width: 33%;
+    padding: 16px;
+    
+}
+.events_item_2{
+    width: 77%;
+    margin: 10px 0 0 10px;
+}
+.events_item_2 h4{
+    font-size: 16px;
+    font-weight: 900;
+}
+.location_event{
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.investor_email{
+    width: 100%;
+    margin: auto;
+    padding: 70px 0;
+    background-color: var(--main);
+    color: white;
+    text-align: center;
+}
+.capt_investor{
+    font-weight: 600;
+    letter-spacing: 0.8px;
+}
+.investor_input{
+    padding: 7px 7px 7px 15px;
+    border: none;
+    border-radius: 6px 0 0 6px;
+    width: 350px;
+}
+.investor_input::placeholder{
+    font-weight: 900;
+    font-size: 14px;
+    color: black;
+}
+.send_inv{
+    background-color: var(--main);
+    color: white;
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+    font-weight: 900;
+    padding: 8px;
+    border: none;
+}
+.inv_border{
+    border: 2px solid white;
+    border-radius: 10px;
+    display: inline-block
+}
+.submitError1{
+    font-weight: 700;
+    color: rgb(105, 8, 8);
+    font-size: 12px;
+}
+.submitSuccess1{
+    font-weight: 700;
+    color: white;
+    font-size: 12px;
+}

@@ -1,0 +1,144 @@
+
+.pr_main_item1{
+    width:71%;
+}
+.pr_main_item2{
+    width: 27%;
+}
+.pr_main_item1_img{
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.alter_date{
+    position: relative;
+    top:-10px;
+    bottom: 25px;
+}
+.pr_main_item1 p{
+    margin-top: 25px;
+}
+.width60{
+    width: 60%;
+}
+.pr_main_item2 h4{
+    font-size: 21px;
+    font-weight: 900;
+    text-shadow: 0.5px 0 0.5px;
+    margin-bottom: 25px;
+}
+.pr_last3_content{
+    margin-bottom: 45px;
+}
+.pr_last3_img{
+    height: 190px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pr_last3_content h5{
+    font-weight: 900;
+    margin-top: 15px;
+}
+
+.topic_caption{
+    font-size: 20px;
+    font-weight: 900;
+    color: var(--main);
+    text-shadow: 0.5px 0 0.5px var(--main);
+    margin-right:15px ;
+}
+
+.topic_span{
+    color: rgb(78, 78, 78);
+    padding: 6px 17px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    margin-right:-7px;
+    font-weight: 900;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: var(--main)!important;
+    background-color: #f9f9f900 !important;
+    
+}
+.nav-pills .nav-link.active .topic_span, .nav-pills .show >.nav-link .topic_span{
+    color: var(--main)!important;
+    border: 1px solid var(--main)!important;
+    
+}
+.nav-link {
+    padding: 7px!important;
+}
+.tab_content_item{
+    width:250px;
+    margin-bottom: 40px;
+    margin-top: 25px;
+}
+.tab_content_item h5{
+    font-weight: 900;
+    margin-top: 15px;
+}
+.ind_top{
+    position: relative;
+}
+
+/* share part */
+
+.share-abs{
+    position: absolute;
+    top: 131px;
+    left: 20px;
+    
+}
+/* .dropdown-toggle:focus {
+    box-shadow: none !important;
+}
+
+.dropdown-toggle::after {
+    display: none;
+} */
+.dropdown-toggle1::after {
+    display: none!important;
+} 
+.dropdown-menu2{
+    left: 15px !important;
+    
+    box-shadow: none!important;
+}
+.dropdown-menu2 a{
+    /* left: -50px !important; */
+    background-color: transparent!important;
+    box-shadow: none!important;
+}
+.soc-icon {
+    width: 30px;
+    transition: width 0.5s;
+}
+.soc-icon1 {
+    width: 24px;
+    transition: width 0.5s;
+}
+
+
+.share-img {
+    width: 40px;
+}
+
+.dropdown-menu li a img:hover {
+    width: 32px;
+}
+.date_place{
+    color: var(--main);
+    text-shadow: 0.8px 0px 1px;
+    font: 900;
+    margin-left: 20px;
+}
+.event_date, .event_place{
+    font-size: 18px;
+    font-weight: 900;
+}
+

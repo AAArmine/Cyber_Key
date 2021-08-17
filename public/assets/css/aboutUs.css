@@ -1,0 +1,210 @@
+
+.ab_us_cont{
+    width: 65%;
+    margin: auto;
+    text-align: center;
+}
+.ab_us_img{
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ab_us_capt2{
+    margin-top: 50px;
+}
+
+.dev_hist_pills > li {
+    float: left;
+}
+.dev_hist_item3, .dev_hist_item1{
+    width: 15%;
+}
+.dev_hist_item2{
+    width: 60%;
+}
+.dev_hist_pills li{
+    margin-bottom: 25px;
+    text-align: right;
+    font-weight: 900;
+    color: black;
+}
+.dev_hist_pills li a{
+    color: black;
+}
+.dev_hist_pills li a:hover{
+    text-decoration: none;
+}
+.dev_hist_pills .active{
+    color: var(--main) !important;
+}
+
+.dev_hist_pills li .active{
+    color: var(--main) !important;
+}
+.tab-pane h3{
+    color: var(--main) !important;
+    font-weight: 900;
+}
+.tab-pane h5{
+    font-weight: 900;
+    margin: 25px 0;
+}
+.dev_history_sec{
+    text-align: left;
+}
+.dev_history_sec p{
+    margin-top: 50px;
+}
+.dev_hist_flex{
+    margin-top: 50px;
+}
+
+.ab_us_second{
+    margin-top: 100px;
+}
+.ab_us_sec_item1, .ab_us_sec_item2{
+    width: 50%;
+}
+.ab_us_sec_item1_img1, .ab_us_sec_item1_img2{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.ab_us_sec_item1{
+    position: relative;
+}
+.ab_us_sec_item1_img1{
+    width: 300px;
+    height: 350px;
+}
+.ab_us_sec_item1_img2{
+    width: 380px;
+    height: 220px;
+    position: absolute;
+    top: 206px;
+    left: 204px;
+}
+.ab_us_sec_item2{
+    margin-left: 170px;
+}
+.ab-checked{
+    width: 35px;
+}
+.text_count{
+    margin-left: 20px;
+}
+/* our vision */
+.our_vision{
+    margin-top: 140px;
+}
+.our_vision_item{
+    width: 30%;
+    margin-top: 35px;
+}
+.our_vision_item_item1{
+    font-size: 50px;
+    background: -webkit-linear-gradient(var(--main) 16%, white 44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    margin-right: 35px;
+    position: relative;
+    top: -20px;
+}
+.our_vision_item_item2 h5{
+    font-weight: 900;
+    text-shadow: 0.5px 0 0.5px black;
+}
+.soc_responsibility{
+    margin-top: 100px;
+
+}
+
+.soc_res_flex_item1{
+    width: 41%;
+    border-right: 2px solid #80808061;
+    padding: 70px 0 70px 220px;
+}
+.soc_res_flex_item2{
+    width: 59%;
+    padding: 70px 220px 70px 50px;
+}
+
+.soc_res_pills li a{
+    border-left: 4px solid black;
+}
+.soc_res_pills li .active{
+    border-left: 4px solid var(--main);
+}
+.soc_res_pills li a{
+    padding: 15px;
+    font-size: 14px;
+}
+.soc_res_pills li{
+    padding: 25px 0;
+}
+.soc_res_pills li a{
+    color: white;
+    font-weight: 500;
+    letter-spacing: 0.8px;
+}
+.soc_res_pills li a:hover{
+    text-decoration: none;
+}
+.soc_res_content h4{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin-top: 20px;
+}
+.soc_res_img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.blackfion_text{
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+/* meet our team */
+.meet_our_team{
+    margin-top: 100px;
+}
+.meet_team_title {
+    width: 68%;
+    margin: auto;
+}
+.meet_team_mainImg{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-top: 40px;
+}
+.leadership_item{
+    width: 30%;
+}
+.our_leadership{
+    margin-top: 25px;
+    margin-bottom: 100px;
+}
+.leadership_item_img{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+}
+.leadership_item_name{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.leadership_item_position{
+    color: grey;
+    font-size: 14px;
+}
+.our_lead_capt2{
+    margin-top: 80px;
+}

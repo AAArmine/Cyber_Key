@@ -1,0 +1,37 @@
+.navLinksDiv{
+    margin-top: 80px;
+}
+.cateroy_item a{
+    color:black !important;
+    font-weight: bold;
+    font-size:18px;
+}
+.cateroy_item .active{
+    color:var(--main) !important;
+    background-color: transparent!important;
+}
+.video_flex_item{
+    position: relative;
+    width:31%;
+    margin-top: 25px;
+}
+.playStop_abs{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:35px;
+    font-weight:bold;
+    color:white;
+}
+.ask_questions{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    width:60%;
+    margin: auto;
+    text-align:center;
+}
+.ask_questions h5{
+    font-weight: 900;
+}

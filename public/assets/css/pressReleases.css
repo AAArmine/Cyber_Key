@@ -1,0 +1,262 @@
+.pr_re_top{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.pr_re_flex_item1{
+    width: 62%;
+}
+.pr_re_flex_item2{
+    width: 35%;
+}
+.pr_re_item1_img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.pr_date{
+    font-size: 13px;
+    color: #808080;
+}
+
+.pr_re_flex_item1 h3{
+    margin-top: 25px;
+}
+.pr_text_2line{
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 14;
+    -webkit-box-orient: vertical;
+}
+/* carousel */
+.pr_img{
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#testimonials .testimonial-item {
+    padding: 35px;
+}
+.owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
+    margin-top: 57px;
+}
+.pr_date{
+    font-size: 13px;
+    color: grey;
+}
+.pr_item-content h4{
+    font-size: 18px;
+    font-weight: 900;
+    margin-top: 25px;
+}
+.pr-slide-section{
+    margin-top: 70px;
+}
+.pr_abs{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: rgba(61, 61, 61, 0.507);
+    color: white;
+    font-weight: 600;
+    padding: 5px 25px;
+    border-radius: 0 5px 5px 0;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+/* end carousel */
+/* or_neificate section */
+
+.navigation_our_news{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.our_news-item1{
+    width: 31%;
+}
+.our_news-item1 h4{
+    margin-top: 15px;
+}
+.our_news-img{
+    height: 230px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.our_news-item1{
+    display: none;
+    cursor: pointer;
+}
+.or_neBorder{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.or_neNavItem1{
+    width: 10%;
+}
+.or_neNavigator{
+    width: 80%;
+    margin: auto;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left_right{
+    width:30px;
+}
+.or_neBorder_bottom{
+    border-bottom: 3px solid black;
+}
+.or_neBorder_item{
+    width:100%;
+}
+.left_or_ne, .right_or_ne{
+    padding:8px 0;
+    cursor: pointer;
+}
+.navigation_our_news{
+    margin-top: 50px;
+}
+.five_our_newss{
+    width: 85%;
+    margin:auto;
+    margin-top: 100px;
+}
+.our_news{
+    margin-bottom: 70px;
+
+}
+
+/* end or_neificate sec */
+
+/* second */
+.five_certificates{
+    text-align: center;
+}
+
+.certificate-item1{
+    width: 31%;
+}
+.certificate-img{
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.certificate-item1{
+    display: none;
+    cursor: pointer;
+}
+.certBorder{
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+.certNavItem1{
+    width: 10%;
+}
+.certNavigator{
+    width: 80%;
+    margin: auto;  
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.left_right{
+    width:30px;
+}
+.certBorder_bottom{
+    border-bottom: 3px solid black;
+}
+.certBorder_item{
+    width:100%;
+}
+.left_cert, .right_cert{
+    padding:8px 0;
+    cursor: pointer;
+}
+.navigation_certificate{
+    margin-top: 50px;
+}
+
+/* end or_neificate sec */
+
+
+/* events */
+.events{
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.events_caption{
+    margin-bottom: 17px !important;
+    padding-bottom: 0 !important;
+}
+.events_date{
+    background-color: var(-main);
+    width: 57%;
+    font-size: 15px;
+    color: white;
+    background-color: var(--main);
+    font-weight: 900;
+    width: 33%;
+    padding: 16px;
+    
+}
+.events_item_2{
+    width: 77%;
+    margin: 10px 0 0 10px;
+}
+.events_item_2 h4{
+    font-size: 16px;
+    font-weight: 900;
+}
+.location_event{
+    font-size: 13px;
+    font-weight: 600;
+}
+#testimonials_events .testimonial-item {
+    padding: 12px
+}
+#testimonials_events .owl-nav{
+    position: absolute;
+    font-size:64px;
+    top: 1%;
+    width: 100%;
+    display: block;
+}
+.med_ab_us_date{
+    font-size: 13px;
+    font-weight: 600;
+}
+.med_ab_us_content h4, .our_news-item1 h4{
+    font-size: 18px;
+    font-weight: 900;
+}
+.med_ab_us_content h4{
+    margin-top: 25px;
+}
+.med_ab_us_date, .our_news-item1 span{
+    font-size: 13px;
+    color: grey;
+}
+#testimonials_med_ab_us .testimonial-item {
+    padding: 12px;
+}
+#testimonials_med_ab_us .owl-nav {
+    position: absolute;
+    font-size: 64px;
+    top: 1%;
+    width: 100%;
+    display: block;
+}
+.pr_re_top a{
+    color: black;
+}
+.pr_re_top a:hover{
+    text-decoration: none;
+    color: black;
+}
