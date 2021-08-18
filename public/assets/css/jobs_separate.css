@@ -1,0 +1,50 @@
+.go_back{
+    transform: rotate(180deg);
+}
+.job_desc_item1{
+    width: 60%;
+}
+.job_desc_item2{
+    margin-left: 45px;
+    width: 40%;
+    padding: 50px;
+    box-shadow: 2px 1px 8px #80808094;
+    transition: box-shadow 0.2s ease;
+    max-height: 450px;
+    text-align: center;
+}
+.job_desc_item2:hover{
+    box-shadow: 0.8px 0.2px 3px #80808094;
+}
+table{
+    width: 100%;
+}
+.capt_column{
+    vertical-align: text-top;
+}
+.tab_row_content{
+    padding-bottom: 35px;
+}
+/* apply */
+
+.apply{
+border: none !important;
+border-bottom: 1.5px solid rgba(126, 124, 124, 0.753)!important;
+border-radius: 0!important;
+margin-bottom: 25px;
+}
+.apply::placeholder{
+font-size: 14px;
+font-weight: 900;
+}
+.upload_img_div{
+    margin-top: 30px;
+}
+.checkbox{
+    margin-top: 25px;
+    padding: 7px;
+}
+#pol_agreement{
+    width: 17px;
+    height: 17px;
+}

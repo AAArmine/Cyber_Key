@@ -17,14 +17,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: SegoeUI, sans-serif;
-  
 }
 textarea:hover, 
-input:hover, 
+input[type="text"]:hover, 
 textarea:active, 
-input:active, 
+input[type="text"]:active, 
 textarea:focus, 
-input:focus,
+input[type="text"]:focus,
 button:focus,
 button:active,
 button:hover,
@@ -39,9 +38,15 @@ label:focus,
 .ab_us_top{
     border-top: 1.5px solid rgba(128, 128, 128, 0.418);
     padding-top: 70px;
+    width: 100%;
 }
 .ind_top{
     border-top: 1.5px solid rgba(128, 128, 128, 0.651);
+}
+.secondary_caption{
+    font-size: 18px;
+    font-weight: 900;
+    text-shadow: 0.5px 0px 0.5px black;
 }
 .common_date{
     font-size: 13px;
