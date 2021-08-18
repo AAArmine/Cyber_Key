@@ -106,8 +106,13 @@ Route::group([
         return view('contact');
     })->name('contact')->middleware('setLocale');
 
+    
+
     Route::post('/form-submit', 'App\Http\Controllers\SubmitController@submit')->name('form-submit')->middleware('setLocale');
     Route::post('/form-submit-home',  'App\Http\Controllers\SubmitHomeController@submit')->name('form-submit-home')->middleware('setLocale');
     Route::post('/form-contact',  'App\Http\Controllers\ContactController@submit')->name('form-contact')->middleware('setLocale');
     Route::post('/form-investor',  'App\Http\Controllers\InvestorController@submit_email')->name('form-investor')->middleware('setLocale');
+    Route::post('/application-sent',  'App\Http\Controllers\ApplicantsController@index')->name('application-sent')->middleware('setLocale');
+    
+    
 });
