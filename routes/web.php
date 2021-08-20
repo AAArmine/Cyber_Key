@@ -106,7 +106,11 @@ Route::group([
         return view('contact');
     })->name('contact')->middleware('setLocale');
 
-    
+    Route::get('/test', function () {
+        return view('test');
+    })->name('test')->middleware('setLocale');
+
+Route::post('upload',  'App\Http\Controllers\TestController@index')->name('upload')->middleware('setLocale');
 
     Route::post('/form-submit', 'App\Http\Controllers\SubmitController@submit')->name('form-submit')->middleware('setLocale');
     Route::post('/form-submit-home',  'App\Http\Controllers\SubmitHomeController@submit')->name('form-submit-home')->middleware('setLocale');
@@ -114,5 +118,6 @@ Route::group([
     Route::post('/form-investor',  'App\Http\Controllers\InvestorController@submit_email')->name('form-investor')->middleware('setLocale');
     Route::post('/application-sent',  'App\Http\Controllers\ApplicantsController@index')->name('application-sent')->middleware('setLocale');
     
+    Route::post('/upload_test',  'App\Http\Controllers\ApplicantsController@index')->name('application-sent')->middleware('setLocale');
     
 });

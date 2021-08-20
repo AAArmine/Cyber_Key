@@ -84,41 +84,58 @@ Jobs
 
             </div>
             <div class="job_desc_item2">
-                <h3 class="common_caption">Apply for this job</h3>
-                <form  id='applicantForm' action="{{route('form-submit-home', app()->getLocale())}}#submit_newsletters_home" method='post'>
+                <h3 class="common_caption" id='apply_for_job'>Apply for this job</h3>
+                <form  id='applicantForm' action="{{route('application-sent', app()->getLocale())}}#apply_for_job" method='post' enctype='multipart/form-data'>
                     @csrf
-                    <input type="text" class='apply form-control' id='apply_name' placeholder='Name'>
-                    <input type="text" class='apply form-control' id='apply_email' placeholder='Email'>
-                    <input type="hidden" class='apply form-control' id='apply_position' value='<?php echo $careerData->job_title;?>'>
+                    <input type="text" class='apply form-control' id='apply_name' placeholder='Name' name='applName'>
+                    <input type="text" class='apply form-control' id='apply_email' placeholder='Email' name='applEmail'>
+                    <input type="text" class='apply form-control' id='apply_position' name='applTitle' value='<?php echo $careerData->job_title;?>'>
 
                     <div class="upload_img_div common_text">
+                        <input type="file" class='apply form-control' id='apply_position' name='applcv'>
+
                         <img src="{{ asset('assets/icons/cloud-computing.png') }}" alt="Upload_icon" class='mr-3'>
                         Upload your CV
                     </div>
-                </form>
-                <div class='checkbox text-left'> 
-                    <div class='d-flex'>
-                        <div><input type="checkbox" id='pol_agreement'></div>
-                        <div class='pl-4'><span class='agree_span common_text'>I agree to the Cyber Key <a href="">Cookie Policy</a> and <a href="">Privacy Policy</a>*  
-                        </span></div>
+                
+                    <div class='checkbox text-left'> 
+                        <div class='d-flex'>
+                            <div><input type="checkbox" id='pol_agreement'></div>
+                            <div class='pl-4'><span class='agree_span common_text'>I agree to the Cyber Key <a href="">Cookie Policy</a> and <a href="">Privacy Policy</a>*  
+                            </span></div>
+                        </div>
                     </div>
-                </div>
-                <button type='submit' class="blue_but" id='apply_submit'>Apply</button>
-                <div class="error" id="ifSent"></div>
+                    <button type='submit' class="blue_but" id='apply_submit'>Apply</button>
+                    @if($errors->has('applName') || $errors->has('applEmail'))
+                    @foreach($errors->all() as $error)
+                    <div class='submitError'>{{$error}}</div>
+                    @endforeach
+
+                    @elseif(session()->has('success_application'))
+                    <div class='submitSuccess'>@lang('validation.success_contact')</div>
+                    <script>
+                        setTimeout(function() {
+                            $('.submitSuccess').html('');
+                        }, 6000)
+                    </script>
+                    @endif
+                </form>
             </div>
         </div>
-
+        {{ csrf_token() }}
     </div>
 </section>
-<script>
+<!-- <script>
     $('#applicantForm').submit(function(e){
         e.preventDefault();
         let applName=$('#apply_name').val();
         let applEmail=$('#apply_email').val();
         let posTitle=$('#apply_position').val();
         let _token = $("input[name=_token]").val();
+       
         $.ajax({
             url:"{{route('application-sent', app()->getLocale())}}",
+            type:"POST",
             data:{
                 applName: applName,
                 applEmail: applEmail,
@@ -127,6 +144,7 @@ Jobs
             },
             success:function(response){
                 if(response){
+                    
                     $('#ifSent').html('sent');
                 }
             }
@@ -134,10 +152,14 @@ Jobs
 
         });
 
-
+        $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+        });
     });
 
-</script>
+</script> -->
 
 
 @endsection

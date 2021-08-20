@@ -8,6 +8,7 @@ $lang_arr = array('en', 'arm', 'ru');
 
 <head>
     <meta charset="utf-8">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="keywords" content="Cyber Security, Cyber Key, մատնահետքերի նույնականացում">
     <meta name="description" content="Cyber Security provider">
