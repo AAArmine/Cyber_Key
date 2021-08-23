@@ -35,4 +35,8 @@ return [
         'required'=>'*The "Message" field is required.',
         
     ],
+    'checkbox'=>'*Cookie Policy and Privacy Policy area is not checked.',
+    'attached_cv'=>'*Resume/CV is not attached․',
+
+
 ];

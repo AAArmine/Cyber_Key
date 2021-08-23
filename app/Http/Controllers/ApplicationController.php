@@ -13,7 +13,7 @@ class ApplicationController extends Controller
     {
         $applicant = new Application();
         $applicant->name = $request->input('name');
-        $applicant->email = $request->input('email');
+        $applicant->email = $request->input('email1');
         $applicant->job_title = $request->input('job_title');
 
         if ($request->hasfile('attached_cv')) {

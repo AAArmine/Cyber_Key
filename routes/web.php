@@ -98,7 +98,7 @@ Route::group([
     )->name('careers')->middleware('setLocale');
 
     Route::get(
-        '/jobs_separate',
+        '/jobs_separate/{id}',
         'App\Http\Controllers\CareerController@show_one'
     )->name('jobs_separate')->middleware('setLocale');
 
@@ -109,7 +109,6 @@ Route::group([
 
 
     Route::post('/apply_job', 'App\Http\Controllers\ApplicationController@store')->name('apply_job')->middleware('setLocale');
-
     Route::post('/form-submit', 'App\Http\Controllers\SubmitController@submit')->name('form-submit')->middleware('setLocale');
     Route::post('/form-submit-home',  'App\Http\Controllers\SubmitHomeController@submit')->name('form-submit-home')->middleware('setLocale');
     Route::post('/form-contact',  'App\Http\Controllers\ContactController@submit')->name('form-contact')->middleware('setLocale');

@@ -10,6 +10,6 @@ class Application extends Model
     use HasFactory;
     protected $table = 'job_applicants';
     protected $fillable = [
-        'name', 'email',  'job_title', 'attached_cv'
+        'name', 'email1',  'job_title', 'attached_cv'
     ];
 }

@@ -9,7 +9,6 @@
 Jobs
 @endsection
 
-
 @section('content')
 <div class="ab_us_top"></div>
 <section class="job_description width85 mb-4">
@@ -87,15 +86,17 @@ Jobs
                 <h3 class="common_caption">Apply for this job</h3>
                 <form action="{{route('apply_job', app()->getLocale())}}#applicantForm" method="POST" enctype="multipart/form-data">
                     {{ csrf_field()}}
-                    <input type="text" class='apply form-control' id='apply_name' placeholder='Name' name='name'>
-                    <input type="text" class='apply form-control' id='apply_email' placeholder='Email' name='email'>
+                    <input type="text" class='apply form-control' id='apply_name' placeholder='Name' name='name'  value="{{ old('name') }}">
+                    <input type="text" class='apply form-control' id='apply_email' placeholder='Email' name='email1' value="{{ old('email') }}">
                     <input type="hidden" class='apply form-control' id='apply_position' value='<?php echo $careerData->job_title; ?>' name='job_title'>
 
                     <div class="upload_img_div common_text">
-                        <input type="file" class='apply form-control' class='apply_cv' name='attached_cv'>
+                        <label>
+                            <input id='inpFile' type="file" class='apply form-control' class='apply_cv' name='attached_cv' style="display:none;" value="{{ old('attached_cv') }}">
 
-                        <img src="{{ asset('assets/icons/cloud-computing.png') }}" alt="Upload_icon" class='mr-3'>
-                        <span id='upload_cv'>Upload your CV</span>
+                            <img src="{{ asset('assets/icons/cloud-computing.png') }}" alt="Upload_icon" class='mr-3'>
+                            <span id='upload_cv'>Upload your CV</span> 
+                        </label>
                     </div>
                     <div class='checkbox text-left'>
                         <div class='d-flex'>
@@ -124,11 +125,7 @@ Jobs
         <!-- !!!!!!!!!!!!!!!!!!!!!!!! display the resume -->
         <!-- <a target="_blank" href="{{ asset('uploads/applicant/1629492149.png') }}" title="">resum</a> -->
     </div>
+    <script src="{{ asset('assets/js/applyJob.js')}}"></script>
 </section>
 @endsection
-<script type="text/javascript">
-    $(document).ready(function() {
-        console.log('ex');
 
-    });
-</script>

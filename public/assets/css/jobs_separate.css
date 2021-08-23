@@ -10,7 +10,7 @@
     padding: 50px;
     box-shadow: 2px 1px 8px #80808094;
     transition: box-shadow 0.2s ease;
-    max-height: 450px;
+    max-height: 500px;
     text-align: center;
 }
 .job_desc_item2:hover{
